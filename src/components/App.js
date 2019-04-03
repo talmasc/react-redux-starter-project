@@ -5,6 +5,7 @@ import AboutPage from "./about/AboutPage";
 import Header from "./common/Header";
 import PageNotFound from "./PageNotFound";
 import ListingsPage from "./listings/ListingsPage";
+import ContactPage from "./contact/ContactPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/about" component={AboutPage} />
         <Route path="/listings" component={ListingsPage} />
+        <Route path="/contact" component={ContactPage} />
         <Route component={PageNotFound} />
       </Switch>
     </div>
